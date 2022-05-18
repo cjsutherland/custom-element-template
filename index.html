@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Components Template</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="app">
+    <muppet-creature name="Kermit" avatar="images/kermit.png">
+      <span slot="color">Green</span>
+      <span slot="species">Frog</span>
+    </muppet-creature>
+
+    <muppet-creature name="Fozzie" avatar="images/fozzie.jpg">
+      <span slot="color">Brown</span>
+      <span slot="species">Bear</span>
+    </muppet-creature>
+
+    <muppet-creature name="Gonzo" avatar="images/gonzo.jpg">
+      <span slot="color">Blue</span>
+      <span slot="species">Whatever</span>
+    </muppet-creature>
+
+
+  </div>
+
+  <script src="custom-elements.js" type="module"></script>
+</body>
+
+</html>
